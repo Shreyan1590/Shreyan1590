@@ -7,7 +7,7 @@
 </div>
 
 <p align="center">
-  <img src="https://shreyans-portfolio.netlify.app/My%20image.jpg" height="200" style="border-radius: 50%; border: 4px solid #8AF7FF; box-shadow: 0 0 20px rgba(138, 247, 255, 0.6);" alt="Shreyan S"/>
+  <img src="https://avatars.githubusercontent.com/u/154342127?v=4" height="200" style="border-radius: 50%; border: 4px solid #8AF7FF; box-shadow: 0 0 20px rgba(138, 247, 255, 0.6);" alt="Shreyan S"/>
 </p>
 
 <p align="center"> 
