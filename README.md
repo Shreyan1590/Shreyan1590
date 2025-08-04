@@ -81,9 +81,9 @@
 ### <div align="center">🐍 Contribution Snake</div>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Shreyan1590/Shreyan1590/output/snake.svg" alt="Snake Game" width="800"/>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Shreyan1590/Shreyan1590/main/assets/snake-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Shreyan1590/Shreyan1590/main/assets/snake.svg">
+    <img alt="Contribution Snake" src="https://raw.githubusercontent.com/Shreyan1590/Shreyan1590/main/assets/snake.svg" width="100%">
+  </picture>
 </p>
-
-<div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&section=footer&fontSize=30&fontAlignY=65" alt="Footer"/>
-</div>
