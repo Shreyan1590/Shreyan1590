@@ -4,15 +4,12 @@ on:
   schedule:
     - cron: "0 0 * * *"  # Runs daily at midnight UTC
   workflow_dispatch:     # Allows manual triggering
-  push:
-    branches:
-      - main            # Optional: run when pushing to main
 
 jobs:
   generate-snake:
     runs-on: ubuntu-latest
     permissions:
-      contents: write   # Needed to push to the repository
+      contents: write
 
     steps:
       - name: Checkout repository
@@ -21,11 +18,10 @@ jobs:
       - name: Generate snake game visualization
         uses: Platane/snk@v3
         with:
-          github_user_name: ${{ github.repository_owner }}
+          github_user_name: Shreyan1590  # Hardcoded your username
           outputs: |
             assets/snake.svg
             assets/snake-dark.svg?palette=github-dark
-            assets/snake.gif
 
       - name: Commit and push changes
         run: |
